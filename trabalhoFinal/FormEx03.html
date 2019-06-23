@@ -1,0 +1,35 @@
+<html>
+	<head>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="arquivo.css"/>
+
+	</head>
+	
+	<body>
+		<header>
+			<a href="index.php">Home</a> -
+			<a href="exercicio01.php">EXERCÍCIO 01</a> -
+			<a href="FormEx02.html">EXERCÍCIO 02</a> -
+			<a href="exercicio03.php">EXERCÍCIO 03</a>
+
+			</br>
+			</br>
+
+		</header>
+		<form action="exercicio03.php" method="POST">
+
+			
+			<label> QUAL TIPO DE INVESTIMENTO: </label></br>
+			<input type="radio" name="tipoOperacao" value="1" checked="checked" />Poupança
+			<input type="radio" name="tipoOperacao" value="2"/>Fundo de Renda Fixa
+			</br></br>
+			<input type="number" name="valor">
+
+			<input type="submit" name="enviar" value="Enviar Dados" />
+			<input type="reset" name="lipar" value="Limpar" />
+
+		</form>
+
+			<footer><p>Análise e Desenvolvimento de Sistemas - Desenvolvimento Web 1 -  Klayton Silva Ramires</footer>
+	</body>
+</html>
